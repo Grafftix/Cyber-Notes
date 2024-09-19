@@ -82,6 +82,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - strong password polcies?
 - lockout polcies?
 - If SMB has to be on, how do I enable SMB signing
+##### ACL/ACE
   
 ### Linux
 *not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
