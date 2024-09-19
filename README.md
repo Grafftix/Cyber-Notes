@@ -1,5 +1,5 @@
 # Intro
-The hard part about being a n00b in this competition for me was not understanding how much I didn't know at the time before getting crushed by the completion. 
+The hard part about being a `n00b` in this competition for me was not understanding how much I didn't know at the time before getting crushed by the completion. 
 I wasn't able to grapple with good questions to evaluate where I stood in my technical knowledge compared to the knowledge required for CCDC,
 albeit I don't think you can ever be fully prepared for this competition, but just better prepared and equipped for problems you will face.
 
