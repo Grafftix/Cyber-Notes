@@ -11,6 +11,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 # The Questions
 
 ## Networking
+*networking is going to be the backbone of your technical foundation, learn how computers,hosts,and nodes talk to each other work with eachother over various protocols.*
 
 ----------------------
 ## Hardening
