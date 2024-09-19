@@ -14,7 +14,8 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 
 ----------------------
 ## Hardening
-
+*hardening is the process of making the host more secure by limiting attack surface*
+*this is done through various ways such as uninstalling unnesscary services, minimizing open ports, ect...*
 ### Windows
 
 ##### Window Client
