@@ -12,7 +12,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 
 ## Networking
 *networking is going to be the backbone of your technical foundation, learn how computers,hosts,and nodes talk to each other work with eachother over various protocols.*
-*some of the biggest attack surface that attackers will abuse are SMB as there has been ATON of vulnerabilities associated with this protocol, we should also be aware of Kerberos Attacks and how LLMNR Poisoning works. There is a ton I can put down here but here, but this should be a good start*
+
 ### TCP/IP
 - what is the diffrence between TCP/UDP?
 - what is ICMP?
@@ -60,6 +60,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - Changing passwords?
 #### Windows Server
 *or `Active-Directory` One of our biggest assets on the network, learn what concurrent vulnerabilities exist.. ie (ZeroLogon)*
+
 ##### Firewall
 - Turning on/off correct networking ports
 	- What Services am I running what protocols do they need?
