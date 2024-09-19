@@ -12,7 +12,29 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 
 ## Networking
 *networking is going to be the backbone of your technical foundation, learn how computers,hosts,and nodes talk to each other work with eachother over various protocols.*
-
+### TCP/IP
+- what is the diffrence between TCP/UDP?
+- what is ICMP?
+- what is an IP address?
+- what is a MAC address?
+- what is a defualt gateway?
+- how does routing work?
+- how does DHCP work?
+- how does ARP work?
+- how does subnetting work?
+- how do I trouble shoot network connectivity
+- what is a network interface?
+### Application Layer Protocols
+- how does DNS work?
+- how does HTTP/HTTPS work?
+- what is SMB? (why is this so vulnerable?)
+- what is ssh,telnet,rdp,?
+- what is NTP? (how do I configure an NTP server & Client)
+  	- what ports do all these belong to TCP/UDP?
+- what protocols does Active Directory use?
+	- kerberos
+   	- LDAP
+  	- RPC
 ----------------------
 ## Hardening
 *hardening is the process of making the host more secure by limiting attack surface*
