@@ -138,6 +138,8 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 *how is NTLM used to authenticate to other servers*
 - how is this protocol vulnerable?
 - what is a hash?
+- how can NTLM be used is pass-the-hash attacks
+	- why is SMB signing important?
 
 ### Kerberos
 *Active Direrctories main form authentication that takes on a SSO format* 
