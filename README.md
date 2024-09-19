@@ -43,6 +43,14 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - User Account Management, how do i disable all user accounts?
 - what service accounts should be enabled? (krbtgt) 
 ###### Registry Keys
+*Windows Registry is a hierarchical database that stores configuration settings and options on Microsoft Windows operating systems.*
+*There are some keys that we want to double check that aren't enabling risky settings*
+-Disable WDigest
+-Disable NetBios
+
+
+###### Group Policy
+
 ### Linux
 *not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
 
