@@ -135,7 +135,12 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 ##### SAM
 
 ### NTLM
+*how is NTLM used to authenticate to other servers*
+- how is this protocol vulnerable?
 
 ### Kerberos
+*Active Direrctories main form authentication that takes on a SSO format* 
+- how does this work?
+- what is a TGT, TGS, KDC
 
 -----------------------
