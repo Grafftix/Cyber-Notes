@@ -93,6 +93,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
   
 ### Linux
 *not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
+*we should be aware of how to patch kernel exploits such as PWNKit(CVE-2021-4034) or DirtyCow CVE-2016-5195.
 
 #### Iptables
 
