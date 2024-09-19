@@ -43,6 +43,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 
 #### Window Client
 *for standalone clients we still want to make sure that the local group policy and admin accounts are locked down, while also addressing potential vulnerable services*
+*if an attacker can compromise a local admin account or NTAuthority System, they may be able to dump creds of domain users using a tool such as **mimikatz**
 ##### Firewall
 - Turning on/off correct networking ports
 	- What Services am I running what protocols do they need?
