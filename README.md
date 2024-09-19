@@ -19,38 +19,48 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 *this is done through various ways such as uninstalling unnesscary services, minimizing open ports, ect...*
 ### Windows
 
-##### Window Client
-
-###### Firewall
+#### Window Client
+*for standalone clients we still want to make sure that the local group policy and admin accounts are locked down, while also addressing potential vulnerable services*
+##### Firewall
 - Turning on/off correct networking ports
 	- What Services am I running what protocols do they need?
-###### Services 
+##### Services 
 - Disabling Services ?
 - What Services do I need?
-###### Local User / Group Permissions
+- how do I update vulnerable versions?
+##### Local User / Group Permissions
 - Risky Privileges
 	- `SeImpersonate`
 - Changing passwords?
-##### Windows Server
+#### Windows Server
 *or `Active-Directory` One of our biggest assets on the network, learn what concurrent vulnerabilities exist.. ie (ZeroLogon)*
-###### Firewall
+##### Firewall
 - Turning on/off correct networking ports
 	- What Services am I running what protocols do they need?
-###### File Permissions
-###### User / Service Account / Group Permissions
+##### File Permissions
+- how do I limit user from Read/Write/Excuteing files?
+- what files should I restrict access to?
+##### User / Service Account / Group Permissions
 - AS-REP Roasting, is kerberos pre-auth not disabled?
 - Kerberoasting, are any accounts SPNs?
-- User Account Management, how do i disable all user accounts?
-- what service accounts should be enabled? (krbtgt) 
-###### Registry Keys
+- User Account Management, how do i disable all user accounts that are not needed?
+- what service accounts should be enabled? (krbtgt)
+- how do I secure the krbtgt account?
+- how do I change passwords
+- how do I remove risky privilges from groups? 
+##### Registry Keys
 *Windows Registry is a hierarchical database that stores configuration settings and options on Microsoft Windows operating systems.*
 *There are some keys that we want to double check that aren't enabling risky settings*
 -Disable WDigest
 -Disable NetBios
-
-
-###### Group Policy
-
+##### Group Policy
+- how do I disable LLMNR?
+- how do I disable LM Hash
+- how do I implment ldap Signing?
+- strong password polcies?
+- lockout polcies?
+- If SMB has to be on, how do I enable SMB signing
+  
 ### Linux
 *not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
 
@@ -60,7 +70,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - Risky SUID set
 - Risky Capabilities Set
 - Loose Privileges 
-##### User Permissions
+#### User Permissions
 - Risky Sudo Privs
 
 
