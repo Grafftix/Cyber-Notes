@@ -66,6 +66,8 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 ##### User / Service Account / Group Permissions
 - AS-REP Roasting, is kerberos pre-auth not disabled?
 - Kerberoasting, are any accounts SPNs?
+	- what is an SPN?
+	- what is an SID?
 - User Account Management, how do i disable all user accounts that are not needed?
 - what service accounts should be enabled? (krbtgt)
 - how do I secure the krbtgt account?
