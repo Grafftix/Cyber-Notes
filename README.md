@@ -137,10 +137,15 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 ### NTLM
 *how is NTLM used to authenticate to other servers*
 - how is this protocol vulnerable?
+- what is a hash?
 
 ### Kerberos
 *Active Direrctories main form authentication that takes on a SSO format* 
 - how does this work?
 - what is a TGT, TGS, KDC
-
+- how is this vulnerable
+	- Kerberoasting
+	- AS-REP Roasting
+ 	- Silver Tickets Attack
+	- Golden Ticket Attacks
 -----------------------
