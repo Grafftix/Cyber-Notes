@@ -25,18 +25,23 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - Turning on/off correct networking ports
 	- What Services am I running what protocols do they need?
 ###### Services 
-- Disabling Services?
+- Disabling Services ?
+- What Services do I need?
 ###### Local User / Group Permissions
 - Risky Privileges
 	- `SeImpersonate`
 - Changing passwords?
 ##### Windows Server
+*or `Active-Directory` One of our biggest assets on the network, learn what concurrent vulnerabilities exist.. ie (ZeroLogon)*
 ###### Firewall
+- Turning on/off correct networking ports
+	- What Services am I running what protocols do they need?
 ###### File Permissions
 ###### User / Service Account / Group Permissions
-- AS-REP Roasting
-- Kerberoasting
-- User Account Management
+- AS-REP Roasting, is kerberos pre-auth not disabled?
+- Kerberoasting, are any accounts SPNs?
+- User Account Management, how do i disable all user accounts?
+- what service accounts should be enabled? (krbtgt) 
 ###### Registry Keys
 ### Linux
 *not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
