@@ -90,7 +90,8 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - lockout polcies?
 - If SMB has to be on, how do I enable SMB signing
 ##### ACL/ACE
-  
+  - do defualt users have generic write?
+- where do I check to see if there are privilges assigned that shouldnt be?
 ### Linux
 *not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
 *we should be aware of how to patch kernel exploits such as PWNKit(CVE-2021-4034) or DirtyCow CVE-2016-5195.
