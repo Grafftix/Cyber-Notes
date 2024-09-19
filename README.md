@@ -51,8 +51,8 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 ##### Registry Keys
 *Windows Registry is a hierarchical database that stores configuration settings and options on Microsoft Windows operating systems.*
 *There are some keys that we want to double check that aren't enabling risky settings*
--Disable WDigest
--Disable NetBios
+- Disable WDigest
+- Disable NetBios
 ##### Group Policy
 - how do I disable LLMNR?
 - how do I disable LM Hash
