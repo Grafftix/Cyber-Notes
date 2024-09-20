@@ -94,8 +94,8 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - where do I check to see if there are privilges assigned that shouldnt be?
 - where do I edit security groups? 
 ### Linux
-*not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different*
-*we should be aware of how to patch kernel exploits such as PWNKit(CVE-2021-4034) or DirtyCow CVE-2016-5195.*
+*not going to differ between different distros as most of them are pretty similar but be aware that some commands will be slightly different.*
+*We should be aware of how to patch kernel exploits such as PWNKit(CVE-2021-4034) or DirtyCow CVE-2016-5195.*
 
 #### Iptables
 *the firewall equivlent for linux systems, sometimes UFW is also used instead* 
