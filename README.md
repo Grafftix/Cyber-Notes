@@ -101,10 +101,15 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 *the firewall equivlent for linux systems, sometimes UFW is also used instead* 
 #### File Permissions
 - Risky SUID set
+	- Whats an SUID?
 - Risky Capabilities Set
-- Loose Privileges 
+	- Whats a Capability 
+- Loose WRX privs
+	- how do I use chmod to change privs?
+ 	- what files should i lock down? (private key files, shadow file)  
 #### User Permissions
 - Risky Sudo Privs
+	- how do I alter who has sudo privileges? 
 
 
 -----------
