@@ -29,6 +29,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 - how does DNS work?
 - how does HTTP/HTTPS work?
 - what is SMB? (why is this so vulnerable?)
+	- what other ports accompany SMB? 
 - what is ssh,telnet,rdp,?
 - what is POP3, SMTP?
 - what is NTP? (how do I configure an NTP server & Client)
