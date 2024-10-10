@@ -157,3 +157,37 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
  	- Silver Tickets Attack
 	- Golden Ticket Attacks
 -----------------------
+## SOC Analysis
+### Finding IoCs
+#### Windows
+##### Commands
+- `netstat -anob` *find weird established connections, take note of PID*
+- `tasklist /V` 
+- `tasklist /FI "PID eq <pid_num>" /M`
+- `wmic process where processid=2088 get name, parentprocessid, processid`
+- `wmic process get name, parentprocessid, processid | find "192"`
+- `wmic process where processid=6789 get commandline` 
+##### Finding Persistance 
+###### Autoruns
+*we should attempt to find malware that executes on start up hidden in the registry* 
+- *note for future, attempt to create script that compares a baseline to current registry edits* 
+`HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
+`HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+`HKLM\Software\Microsoft\Windows\CurrentVersion\Run`
+`HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+`HKLM\SYSTEM\CurrentControlSet\Services`
+`reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"`
+`reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Run"`
+###### Service
+`sc query`
+`sc query state= all`
+`sc query "BackupService"`
+`sc qc <service_name>` *more usefull* 
+`Get-Service | Where-Object {$_.Status -eq 'Running'` *Powershell -> *
+`Get-Service -Name "BackupService"` 
+###### Scheduled Tasks
+`schtasks /query /fo LIST`
+`schtasks /query /tn "TaskName" /v /fo LIST`
+#### Linux
+
+  
