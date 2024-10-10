@@ -158,6 +158,7 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 	- Golden Ticket Attacks
 -----------------------
 ## SOC Analysis
+*Im adding this section and short list of commands to aid in identifying potential malware/threats on devices. The main point of running any of these commands is to find potential **Indicators of Compromise** usually you can find these through outbound connection trying to contact external listners or find established external connections for the Red-Team to "Pop A Shell" through.*  
 ### Finding IoCs
 #### Windows
 ##### Commands
