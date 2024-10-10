@@ -171,23 +171,23 @@ and its attack surface. **YOU WILL NEVER KNOW EVERYTHING** *but you can always l
 ###### Autoruns
 *we should attempt to find malware that executes on start up hidden in the registry* 
 - *note for future, attempt to create script that compares a baseline to current registry edits* 
-`HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
-`HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
-`HKLM\Software\Microsoft\Windows\CurrentVersion\Run`
-`HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce`
-`HKLM\SYSTEM\CurrentControlSet\Services`
-`reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"`
-`reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Run"`
-###### Service
-`sc query`
-`sc query state= all`
-`sc query "BackupService"`
-`sc qc <service_name>` *more usefull* 
-`Get-Service | Where-Object {$_.Status -eq 'Running'` *Powershell -> *
-`Get-Service -Name "BackupService"` 
+- `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
+- `HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+- `HKLM\Software\Microsoft\Windows\CurrentVersion\Run`
+- `HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+- `HKLM\SYSTEM\CurrentControlSet\Services`
+- `reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run"`
+- `reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Run"`
+###### Services 
+- `sc query`
+- `sc query state= all`
+- `sc query "BackupService"`
+- `sc qc <service_name>` *more usefull* 
+- `Get-Service | Where-Object {$_.Status -eq 'Running'` *Powershell -> *
+- `Get-Service -Name "BackupService"` 
 ###### Scheduled Tasks
-`schtasks /query /fo LIST`
-`schtasks /query /tn "TaskName" /v /fo LIST`
+- `schtasks /query /fo LIST`
+- `schtasks /query /tn "TaskName" /v /fo LIST`
 #### Linux
 
   
